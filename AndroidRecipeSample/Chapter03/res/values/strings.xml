@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+   <resources>
+
+    <string name="app_name">Chapter03</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">建立線性版面配置</string>
+    <string name="app_title2">建立表格版面配置</string>
+    <string name="app_title3">建立格線版面配置</string>
+    <string name="app_title4">建立框架版面配置</string>
+    <string name="app_title5">建立相對版面配置</string>
+    <string name="app_title6">在View設定留白</string>
+    <string name="app_title7">平均分配View版面配置</string>
+    <string name="app_title8">設定可伸縮的留白</string>
+    <string name="app_title9">重複利用版面配置</string>
+    <string name="app_title10">設定背景</string>
+    <string name="app_title11">變更尺寸</string>
+    <string name="app_title12">建立分頁畫面</string>
+    <string name="app_title13">建立導覽選單（Navigation Drawer）</string>
+    <string name="app_title14">建立滑動切換畫面</string>
+    <string name="label_view">View</string>
+    <string name="label_background">背景</string>
+    <string name="label_margin">margin</string>
+    <string name="label_padding">padding</string>
+    <string name="label_margineven">伸縮的留白</string>
+    <string name="label_table_normal">標準</string>
+    <string name="label_table_column">欄操作</string>
+    <string name="label_table_table">表格操作</string>
+    <string name="label_table_repeat">換行換行換行換行換行換行換行換行</string>
+    <string name="label_view01">View01</string>
+    <string name="label_view02">View02</string>
+    <string name="label_view03">View03</string>
+    <string name="label_view04">View04</string>
+    <string name="label_view05">View05</string>
+    <string name="label_view06">View06</string>
+    <string name="label_view07">View07</string>
+    <string name="label_view08">View08</string>
+    <string name="label_view09">View09</string>
+    <string name="label_view10">View10</string>
+    <string name="label_top">TOP</string>
+    <string name="label_left">LEFT</string>
+    <string name="label_bottom">BOTTOM</string>
+    <string name="label_right">RIGHT</string>
+    <string name="label_include_normal">一般版面配置重複利用</string>
+    <string name="label_include_merge">Merge重複利用</string>
+    <string name="label_even_horizonal">水平均分</string>
+    <string name="label_even_vertical">垂直均分</string>
+    <string name="ch0313_drawer_open">Open navigation drawer</string>
+    <string name="ch0313_drawer_close">Close navigation drawer</string>
+
+</resources>

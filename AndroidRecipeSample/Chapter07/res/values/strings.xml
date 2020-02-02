@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter07</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">播放音效</string>
+    <string name="app_title2">播放聲音</string>
+    <string name="app_title3">錄音</string>
+    <string name="app_title4">無縫播放</string>
+    <string name="app_title5">監聽耳機的插入拔出</string>
+    <string name="app_title6">監聽耳機控制的操作</string>
+    <string name="app_title7">將音樂資訊顯示在解鎖畫面</string>
+    <string name="app_title8">將音樂資訊顯示在通知區域</string>
+    <string name="app_title9">設定音訊等化器（Equalizer）</string>
+    <string name="app_title10">使用視覺化檢視器（Visualizer）</string>
+    <string name="app_title11">播放影片</string>
+    <string name="app_title12">在應用程式內播放YouTube</string>
+    <string name="text_play">播放</string>
+    <string name="text_stop">停止</string>
+    <string name="text_record">錄音</string>
+    <string name="text_now_record">錄音中</string>
+    <string name="text_enable_equlizer">將等化器設定生效</string>
+    <string name="text_error_player">YouTubePlayer初始化失敗 (%1$s)</string>
+    <string name="text_complete_recordplay">播放結束</string>
+    
+</resources>

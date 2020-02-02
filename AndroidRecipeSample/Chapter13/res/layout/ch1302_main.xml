@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Switch
+        android:id="@+id/bigTextSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:text="@string/label_notification_bigtext"
+        android:textOff="@string/label_off"
+        android:textOn="@string/label_on" />
+
+    <Switch
+        android:id="@+id/bigPictureSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:text="@string/label_notification_bigpicture"
+        android:textOff="@string/label_off"
+        android:textOn="@string/label_on" />
+
+    <Switch
+        android:id="@+id/inboxSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:text="@string/label_notification_inbox"
+        android:textOff="@string/label_off"
+        android:textOn="@string/label_on" />
+
+    <Switch
+        android:id="@+id/buttonSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:text="@string/label_notification_button"
+        android:textOff="@string/label_off"
+        android:textOn="@string/label_on" />
+
+</LinearLayout>

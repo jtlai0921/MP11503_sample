@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:title="一般項目"/>
+    <item
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="never"
+        android:title="showAsAction: never"/>
+    <item
+        android:icon="@android:drawable/ic_menu_call"
+        android:showAsAction="ifRoom"
+        android:title="showAsAction: ifRoom"/>
+    <item
+        android:icon="@android:drawable/ic_menu_compass"
+        android:showAsAction="withText"
+        android:title="showAsAction: withText"/>
+    <item
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:showAsAction="always"
+        android:title="showAsAction: always"/>
+    <item
+        android:title="不顯示的項目"
+        android:visible="false"/>
+
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ch1503_items">
+        <item>鴨子</item>
+        <item>麻雀</item>
+        <item>雞</item>
+        <item>鴿子</item>
+    </string-array>
+
+</resources>

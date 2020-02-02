@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Padding -->
+    <dimen name="padding_minimum">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_xlarge">16dp</dimen>
+
+    <!-- 捲軸 -->
+    <dimen name="scroll_vertical_view">100dp</dimen>
+</resources>

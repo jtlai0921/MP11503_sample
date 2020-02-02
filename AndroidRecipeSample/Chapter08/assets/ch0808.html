@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Chapter07 - Hello, Assets World</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="bootstrap.min.css" />
+		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#btn').click(function() {
+					$('#input').val('Hello, jQuery! [' + (new Date().toString() + ']'));
+				});
+			})();
+		</script>
+	</head>
+	<body>
+		<h1>Hello, World!</h1>
+
+		<div class="col-md-6">
+			<button id="btn" type="button" class="btn btn-primary btn-block">Press!</button>
+		</div>
+		<div class="col-md-6">
+			<input type="text" id="input" class="form-control" placeholder="Text input">
+		</div>
+	</body>
+</html>

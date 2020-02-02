@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/padding_minimum"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="50dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_margin="@dimen/padding_minimum"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="50sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_margin="@dimen/padding_minimum"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="50pt"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_margin="@dimen/padding_minimum"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="50px"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="15mm"
+        android:layout_height="15mm"
+        android:layout_margin="@dimen/padding_minimum"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="15mm"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="0.5in"
+        android:layout_height="0.5in"
+        android:layout_margin="@dimen/padding_minimum"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="0.5in"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

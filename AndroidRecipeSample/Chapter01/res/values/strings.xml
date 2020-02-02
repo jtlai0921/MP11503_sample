@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter01</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">在字串中使用HTML連結</string>
+    <string name="app_title2">將長字串省略表示</string>
+    <string name="app_title3">變更文字樣式</string>
+    <string name="app_title4">變更文字配置</string>
+    <string name="app_title5">使用ProgressBar</string>
+    <string name="app_title6">自訂ProgressBar</string>
+    <string name="app_title7">使用按鈕</string>
+    <string name="app_title8">配合按鈕的狀態改變圖片</string>
+    <string name="app_title9">設定按鈕圖片</string>
+    <string name="app_title10">使用ToggleButon／Switch</string>
+    <string name="app_title11">自訂ToggleButton／Switch</string>
+    <string name="app_title12">使用CheckBox</string>
+    <string name="app_title13">使用RadioButton</string>
+    <string name="app_title14">使用SeekBar</string>
+    <string name="app_title15">縱向顯示SeekBar</string>
+    <string name="app_title16">自訂SeekBar</string>
+    <string name="app_title17">輸入密碼</string>
+    <string name="app_title18">顯示輸入提示</string>
+    <string name="app_title19">限制輸入文字</string>
+    <string name="app_title20">使用輸入建議</string>
+    <string name="app_title21">自訂輸入建議</string>
+    <string name="app_title22">使用評分欄</string>
+    <string name="app_title23">使用Spinner</string>
+    <string name="app_title24">自訂Spinner</string>
+    <string name="app_title25">使用縮放控制</string>
+    <string name="app_title26">變更縮放速度</string>
+    <string name="app_title27">使用日期選擇器</string>
+    <string name="app_title28">在日期選擇器設定預設值</string>
+    <string name="app_title29">限制日期選擇器的顯示項目</string>
+    <string name="app_title30">以對話框來顯示日期選擇器</string>
+    <string name="app_title31">使用ImageView來顯示圖片</string>
+    <string name="app_title32">將ImageView的圖片縮小顯示</string>
+    <string name="app_title33">捲動大於畫面的圖片</string>
+    <string name="app_title34">旋轉圖片</string>
+    <string name="app_title35">設定圖片外框</string>
+    <string name="app_title36">在圖片讀取時顯示Loading</string>
+    <string name="ch0110_toggle_shift">ToggleButton : %s</string>
+    <string name="ch0110_switch_shift">Switch : %s</string>
+    <string name="ch0126_label_zoomspeed">縮放速度</string>
+    <string name="ch0126_label_zoomspeedFast">快</string>
+    <string name="ch0126_label_zoomspeedSlow">慢</string>
+    <string name="ch0127_picker_getdate">取得日期</string>
+    <string name="ch0130_picker_datepickerdialog">顯示日期選擇器視窗</string>
+    <string name="ch0129_picker_hidecalendar">不顯示日曆</string>
+    <string name="ch0129_picker_hideyear">不顯示年</string>
+    <string name="ch0129_picker_hidemonth">不顯示月</string>
+    <string name="ch0129_picker_hideday">不顯示日</string>
+
+</resources>

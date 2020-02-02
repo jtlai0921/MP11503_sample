@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidRecipeCh08</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">顯示網頁內容</string>
+    <string name="app_title2">讓瀏覽歷程回到上一頁或下一頁</string>
+    <string name="app_title3">變更UserAgent</string>
+    <string name="app_title4">取得網頁頁面的進度</string>
+    <string name="app_title5">在按下裝置的返回鍵時，回到上一頁</string>
+    <string name="app_title6">在長點擊時，取得該連結的URL</string>
+    <string name="app_title7">取得書籤圖示（Favicon）</string>
+    <string name="app_title8">顯示assets資料夾中的HTML</string>
+    <string name="app_title9">利用HTML5的WebStorage功能</string>
+    <string name="app_title10">顯示使用Basic認證的頁面</string>
+    <string name="app_title11">顯示使用定位資訊的頁面</string>
+    <string name="app_title12">使用Cookie</string>
+    <string name="app_title13">對執行中的頁面啟用JavaScript</string>
+    <string name="app_title14">對執行中的頁面啟用Java語法</string>
+    <string name="app_title15">取出URL中的特定字串</string>
+    <string name="app_title16">利用HttpClient來取得文字資料</string>
+    <string name="app_title17">利用HttpURLConnection來取得文字資料</string>
+
+</resources>

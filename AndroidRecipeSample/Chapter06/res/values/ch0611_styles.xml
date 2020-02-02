@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Ch0611" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+    </style>
+
+    <style name="Animation.Activity" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/ch0611_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/ch0611_open_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/ch0611_close_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/ch0611_close_enter</item>
+    </style>
+
+</resources>

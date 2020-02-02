@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/padding_large"
+        android:background="@color/FlatLightBlue"
+        android:gravity="left|top"
+        android:text="世界你好" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/padding_large"
+        android:background="@color/FlatLightBlue"
+        android:gravity="right|top"
+        android:text="世界你好" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/padding_large"
+        android:background="@color/FlatLightBlue"
+        android:gravity="right|bottom"
+        android:text="世界你好" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/padding_large"
+        android:background="@color/FlatLightBlue"
+        android:gravity="left|bottom"
+        android:text="世界你好" />
+
+</LinearLayout>

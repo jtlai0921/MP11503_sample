@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="時" />
+
+        <EditText
+            android:id="@+id/editHours"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="例）12"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分" />
+
+        <EditText
+            android:id="@+id/editMinutes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="例:）5"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="訊息" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="例）朋友約會"
+        android:inputType="text" />
+
+    <Switch
+        android:id="@+id/switchSkipUi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="設定後不開啟警示" />
+
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="設定警示" />
+
+</LinearLayout>

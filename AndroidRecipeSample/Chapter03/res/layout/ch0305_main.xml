@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/FlatLightCyan"
+        android:gravity="center"
+        android:text="@string/label_view01"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@color/FlatLightYellow"
+        android:gravity="center"
+        android:text="@string/label_view02"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/FlatLightRed"
+        android:gravity="center"
+        android:text="@string/label_view03"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/FlatLightBlue"
+        android:gravity="center"
+        android:text="@string/label_view04"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/FlatLightPurple"
+        android:padding="@dimen/layout_common_size_large"
+        android:text="@string/label_view05"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_above="@+id/view5"
+        android:layout_toLeftOf="@+id/view5"
+        android:background="@color/FlatLightNavy"
+        android:gravity="center"
+        android:text="@string/label_view06"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_below="@+id/view5"
+        android:layout_toRightOf="@+id/view5"
+        android:background="@color/FlatDarkWhite"
+        android:gravity="center"
+        android:text="@string/label_view07"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_large"
+        android:layout_height="@dimen/layout_common_size_large"
+        android:layout_alignLeft="@+id/view5"
+        android:layout_alignTop="@+id/view5"
+        android:background="@color/FlatLightGreen"
+        android:gravity="center"
+        android:text="@string/label_view08"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_large"
+        android:layout_height="@dimen/layout_common_size_large"
+        android:layout_alignBottom="@+id/view5"
+        android:layout_alignRight="@+id/view5"
+        android:background="@color/FlatLightOrange"
+        android:gravity="center"
+        android:text="@string/label_view09"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/layout_common_size_xlarge"
+        android:layout_height="@dimen/layout_common_size_xlarge"
+        android:layout_alignBaseline="@+id/view5"
+        android:layout_toLeftOf="@+id/view5"
+        android:background="@color/FlatDarkBlue"
+        android:gravity="center"
+        android:text="@string/label_view10"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="設定畫面" >
+        <CheckBoxPreference
+            android:key="checkbox_key"
+            android:summary="核取方格摘要"
+            android:title="標題：核取方格" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

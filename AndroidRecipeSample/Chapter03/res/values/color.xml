@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- FlatUI Color -->
+    <color name="FlatLightCyan">#1abc9c</color>
+    <color name="FlatDarkCyan">#16a085</color>
+    <color name="FlatLightGreen">#2ecc71</color>
+    <color name="FlatDarkGreen">#27ae60</color>
+    <color name="FlatLightBlue">#3498db</color>
+    <color name="FlatDarkBlue">#2980b9</color>
+    <color name="FlatLightPurple">#9b59b6</color>
+    <color name="FlatDarkPurple">#8e44ad</color>
+    <color name="FlatLightNavy">#34495e</color>
+    <color name="FlatDarkNavy">#2c3e50</color>
+    <color name="FlatLightYellow">#f1c40f</color>
+    <color name="FlatDarkYellow">#f39c12</color>
+    <color name="FlatLightOrange">#e67e22</color>
+    <color name="FlatDarkOrange">#d35400</color>
+    <color name="FlatLightRed">#e74c3c</color>
+    <color name="FlatDarkRed">#c0392b</color>
+    <color name="FlatLightWhite">#ecf0f1</color>
+    <color name="FlatDarkWhite">#bdc3c7</color>
+    <color name="FlatLightGlay">#95a5a6</color>
+    <color name="FlatDarkGlay">#7f8c8d</color>
+
+</resources>

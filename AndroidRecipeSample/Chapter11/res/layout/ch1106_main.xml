@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_xlarge"
+    android:stretchColumns="1" >
+
+    <Switch
+        android:id="@+id/proximitySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:text="@string/ch1106_label_proximity"
+        android:textOff="@string/ch1106_label_off"
+        android:textOn="@string/ch1106_label_on"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+</TableLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:text="@string/label_table_normal" />
+
+    <TableLayout
+        android:id="@+id/tableview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:background="@color/FlatLightCyan"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1A"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightYellow"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1B"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightRed"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1C"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@color/FlatLightBlue"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="2A"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightPurple"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="2B"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightNavy"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="2C"
+                android:textColor="@android:color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_xlarge"
+        android:text="@string/label_table_column" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:background="@color/FlatLightCyan"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1A"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/FlatLightPurple"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="2B"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/FlatLightOrange"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="3C"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_span="3"
+                android:background="@color/FlatDarkRed"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="4A"
+                android:textColor="@android:color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_xlarge"
+        android:text="@string/label_table_table" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="0,1" >
+
+        <TableRow>
+
+            <TextView
+                android:background="@color/FlatLightCyan"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1A"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightYellow"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1B"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightRed"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="1C"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@color/FlatLightBlue"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="@string/label_table_repeat"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightPurple"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="@string/label_table_repeat"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:background="@color/FlatLightNavy"
+                android:gravity="center"
+                android:padding="@dimen/layout_common_size_small"
+                android:text="2C"
+                android:textColor="@android:color/white" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

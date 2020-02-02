@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter11</string>
+    <string name="app_title1">監聽加速度感應器的値</string>
+    <string name="app_title2">監聽陀螺儀感應器的値</string>
+    <string name="app_title3">得知裝置的所在位置</string>
+    <string name="app_title4">得知裝置的方位</string>
+    <string name="app_title5">取得氣壓感應器</string>
+    <string name="app_title6">取得趨近感應器的値</string>
+    <string name="app_title7">顯示照相預覽</string>
+    <string name="app_title8">將照片儲存在相簿中</string>
+    <string name="app_title9">控制的相機曝光或自動對焦</string>
+    <string name="app_title10">控制照相機的閃光燈</string>
+    <string name="app_title11">使用臉部辨識功能</string>
+    <string name="app_title12">讀取NFC分頁</string>
+    <string name="app_title13">寫入NFC分頁</string>
+    <string name="app_title14">得知網路的連線狀態</string>
+    <string name="app_title15">監聽飛航模式的切換</string>
+    <string name="action_settings">Settings</string>
+    <string name="ch1101_label_xaxis">X軸</string>
+    <string name="ch1101_label_yaxis">Y軸</string>
+    <string name="ch1101_label_zaxis">Z軸</string>
+    <string name="ch1103_label_latitude">緯度</string>
+    <string name="ch1103_label_longitude">經度</string>
+    <string name="ch1104_label_azimuth">方位角</string>
+    <string name="ch1104_label_azimuth_north">北：0〜90度</string>
+    <string name="ch1104_label_azimuth_west">東：90〜180度</string>
+    <string name="ch1104_label_azimuth_south">南：180〜270度</string>
+    <string name="ch1104_label_azimuth_east">西：270〜360度</string>
+    <string name="ch1106_label_off">關</string>
+    <string name="ch1106_label_on">開</string>
+    <string name="ch1106_label_proximity">趨近感應器</string>
+    <string name="ch1106_label_pause_of_the_call">請將裝置設備靠近耳邊做出通話的姿勢</string>
+    <string name="ch1109_label_autofocus">自動對焦</string>
+    <string name="ch1109_label_exposure">曝光 :</string>
+    <string name="ch1110_label_flash">閃光燈 :</string>
+    <string name="ch1110_label_torch">Torch</string>
+    <string name="ch1111_camera_maxface">最大臉部辨識數量 :%s</string>
+    <string name="ch1114_label_network_mobile">移動網路可以使用。</string>
+    <string name="ch1114_label_network_wifi">Wi-Fi可以使用。</string>
+    <string name="ch1114_label_network_unknown">無法確認網絡存在</string>
+    <string name="ch1115_label_airplanemode_enable">飛航模式可以使用</string>
+    <string name="ch1115_label_airplanemode_disable">飛航模式無法使用</string>
+    <string name="label_read">讀取</string>
+    <string name="label_write">寫入</string>
+    <string name="hint_write">在此輸入</string>
+    <string name="error_nfc_disable">NFC設定為無效 \n 請在設定畫面將NFC設定生效</string>
+    <string name="error_nfc_nosupport">此為沒有搭載NFC的裝置</string>
+    <string name="error_connect">與分頁的通信失敗了</string>
+    <string name="error_format">請輸入寫入資料</string>
+    <string name="write_success">寫入完成</string>
+    <string name="write_failure">無法進行寫入</string>
+
+</resources>

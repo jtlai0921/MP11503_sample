@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>新聞RSS範例</title>
+        <link>http://android-recipe.herokuapp.com/</link>
+        <description>此為RSS的範例。</description>
+        <language>ja</language>
+        <pubDate>Mon, 10 Feb 2014 13:01:22 +0900</pubDate>
+        <item>
+            <title>新聞１</title>
+            <link>http://android-recipe.herokuapp.com/pages/1</link>
+            <pubDate>Mon, 10 Feb 2014 11:06:35 +0900</pubDate>
+            <description><![CDATA[新聞１的内容。]]></description>
+        </item>
+        <item>
+            <title>新聞２</title>
+            <link>http://android-recipe.herokuapp.com/pages/2</link>
+            <pubDate>Mon, 10 Feb 2014 12:38:06 +0900</pubDate>
+            <description><![CDATA[新聞２的内容。]]></description>
+        </item>
+        <item>
+            <title>新聞３</title>
+            <link>http://android-recipe.herokuapp.com/pages/3</link>
+            <pubDate>Mon, 10 Feb 2014 12:17:42 +0900</pubDate>
+            <description><![CDATA[新聞３的内容。]]></description>
+
+        </item>
+    </channel>
+</rss>

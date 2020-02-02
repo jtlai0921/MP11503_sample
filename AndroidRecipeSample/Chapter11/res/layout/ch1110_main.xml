@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/Preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Switch
+        android:id="@+id/torchSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:text="@string/ch1110_label_torch"
+        android:textColor="@android:color/white"
+        android:textOff="@string/ch1106_label_off"
+        android:textOn="@string/ch1106_label_on"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/torchSwitch"
+        android:layout_toRightOf="@+id/torchSwitch"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

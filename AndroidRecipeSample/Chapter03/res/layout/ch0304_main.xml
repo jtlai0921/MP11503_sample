@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="@dimen/padding_medium"
+        android:alpha="0.8"
+        android:background="@color/FlatLightCyan"
+        android:gravity="center"
+        android:padding="@dimen/layout_common_size_large"
+        android:text="@string/label_view01"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/padding_medium"
+        android:alpha="0.8"
+        android:background="@color/FlatLightYellow"
+        android:gravity="center"
+        android:padding="@dimen/layout_common_size_large"
+        android:text="@string/label_view02"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="@dimen/padding_medium"
+        android:alpha="0.8"
+        android:background="@color/FlatLightRed"
+        android:gravity="center"
+        android:padding="@dimen/layout_common_size_large"
+        android:text="@string/label_view03"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>

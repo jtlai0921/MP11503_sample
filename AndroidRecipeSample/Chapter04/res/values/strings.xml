@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidRecipeCh04</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name1">想取得應用程式的版本</string>
+    <string name="app_name2">想取得所安裝的應用程式一覽</string>
+    <string name="app_name3">想取得對應動作的應用程式一覽</string>
+    <string name="app_name4">想讓旋轉後,Activity也不會被拾棄</string>
+    <string name="app_name5">想讓某應用程式,不出現在最近使用過的應用程式中</string>
+    <string name="app_name6">想使各Activity之間,彼此配合</string>
+    <string name="app_name7">想作成Widget</string>
+    <string name="app_name8">想追加Widget的點擊處理</string>
+    <string name="app_name9">想作成Service</string>
+    <string name="app_name10">想要使Activity和Service彼此配合</string>
+    <string name="app_name11">想作成Fragment</string>
+    <string name="app_name12">想作成DialogFragment</string>
+    <string name="app_name13">想作成加載器</string>
+    <string name="hello_world">Hello, World!</string>
+    <string name="app_name14">Localizing with Resources</string>
+    <string name="ch0406_label_string">渡す文字列</string>
+    <string name="ch0406_label_senddata">交付字串到別的Activity</string>
+    <string name="ch0406_label_recievedata">接受字串</string>
+    <string name="ch0406_label_result">接受了的字串</string>
+    <string name="ch0406_label_backactivity">回到前一個Activity</string>
+    <string name="ch0406_input_int">01234567890</string>
+    <string name="ch0406_input_string">例：ABCDEFG</string>
+    <string name="ch0411_btn_add_code">在編碼追加</string>
+    <string name="ch0411_btn_add_xml">在XML追加</string>
+    <string name="ch0411_btn_delete">刪除</string>
+    <string name="ch0414_label_next">切換</string>
+
+</resources>

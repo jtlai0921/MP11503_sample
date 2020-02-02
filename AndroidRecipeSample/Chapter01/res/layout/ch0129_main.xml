@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Switch
+        android:id="@+id/HideCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch0129_picker_hidecalendar" />
+
+    <Switch
+        android:id="@+id/HideYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch0129_picker_hideyear" />
+
+    <Switch
+        android:id="@+id/HideMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch0129_picker_hidemonth" />
+
+    <Switch
+        android:id="@+id/HideDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch0129_picker_hideday" />
+
+    <DatePicker
+        android:id="@+id/DatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

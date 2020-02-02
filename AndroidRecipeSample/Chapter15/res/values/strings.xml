@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter15</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name1">將檔案儲存到新增的目錄</string>
+    <string name="app_name2">讀取檔案</string>
+    <string name="app_name3">儲存應用程式的設定値</string>
+    <string name="app_name4">從資源讀取檔案</string>
+    <string name="app_name5">使用暫存檔</string>
+    <string name="app_name6">存取音樂資訊</string>
+    <string name="app_name7">存取通訊錄</string>
+    <string name="app_name8">自訂ContentProvider</string>
+    <string name="app_name9">加速ContentProvider的處理</string>
+    <string name="app_name10">監聽ContentProvider内的資料變更</string>
+    <string name="app_name11">設定ContentProvider的權限</string>
+    <string name="app_name12">解析JSON</string>
+    <string name="app_name13">解析XML</string>
+    <string name="ch1501_hint">請輸入要寫入的内容。</string>
+    <string name="ch1501_button">寫入</string>
+    <string name="ch1501_message">已將内容寫入</string>
+    <string name="ch1502_button">讀取</string>
+    <string name="ch1503_check1">蘋果</string>
+    <string name="ch1503_check2">橘子</string>
+    <string name="ch1505_create">建立暫存檔</string>
+    <string name="ch1508_insert">新增</string>
+    <string name="ch1509_insert">新增註冊資料</string>
+    <string name="ch1510_insert">新增</string>
+
+</resources>

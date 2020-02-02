@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter14</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">傳送簡訊</string>
+    <string name="app_title2">傳送電子郵件</string>
+    <string name="app_title3">傳送帶有附件的電子郵件</string>
+    <string name="app_title4">共享文字資料</string>
+    <string name="app_title5">從剪貼簿取得文字</string>
+    <string name="app_title6">呼叫畫廊</string>
+    <string name="app_title7">呼叫照相機</string>
+    <string name="app_title8">搜尋地圖</string>
+    <string name="app_title9">搜尋Youtube影片</string>
+    <string name="app_title10">使用LINE傳送訊息</string>
+    <string name="app_title11">讀取日曆資訊</string>
+    <string name="app_title12">在日曆註冊事件</string>
+    <string name="app_title13">在Intent設定警示提醒</string>
+    <string name="ch1401_label_notfound_app">找不到對應的應用程式</string>
+    <string name="ch1401_label_input_empty">有項目未輸入</string>
+    <string name="ch1402_label_input_empty">有項目未輸入</string>
+    <string name="ch1403_label_input_empty">有項目未輸入</string>
+    <string name="ch1404_label_input_empty">有項目未輸入</string>
+    <string name="ch1408_label_input_empty">有項目未輸入</string>
+    <string name="ch1409_label_input_empty">有項目未輸入</string>
+    <string name="ch1410_label_input_empty">有項目未輸入</string>
+    <string name="ch1401_label_hint_body">輸入本文 例：嗨，您好</string>
+    <string name="ch1401_label_intent_sms">簡訊協作</string>
+    <string name="ch1401_label_hint_phone">輸入收件者 例:090-1234-5678</string>
+    <string name="ch1402_label_hint_address">輸入收件者 例:hogehoge@androidrecipe.com</string>
+    <string name="ch1402_label_hint_subject">輸入標題 例:給Lubin先生</string>
+    <string name="ch1402_label_select_attach">附件</string>
+    <string name="ch1402_label_intent_mail">電子郵件協作</string>
+    <string name="ch1403_label_wite_test">abcdefghejklmnopqrstuvwxyz</string>
+    <string name="ch1404_label_input_word">在此輸入</string>
+    <string name="ch1404_label_intent_text">文字協作</string>
+    <string name="ch1405_label_use_clipboard">從剪貼簿取得文字</string>
+    <string name="ch1406_label_use_gallery">使用相簿應用程式</string>
+    <string name="ch1407_label_use_camera">使用照相機應用程式</string>
+    <string name="ch1408_label_intent_map">GoogleＭａｐ協作</string>
+    <string name="ch1409_label_intent_youtube">Youtube協作</string>
+    <string name="ch1410_label_use_line">使用LINE傳送</string>
+
+</resources>

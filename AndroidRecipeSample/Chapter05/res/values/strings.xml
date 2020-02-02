@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter05</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">監聽點擊／雙點擊</string>
+    <string name="app_title2">監聽旋轉</string>
+    <string name="app_title3">監聽滑動</string>
+    <string name="app_title4">監聽長點擊</string>
+    <string name="app_title5">判定圖片任意範圍的點擊</string>
+    <string name="app_title6">監聽［返回］按鈕</string>
+    <string name="app_title7">監聽［Home］按鈕</string>
+    <string name="app_title8">監聽［音量］按鈕</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Text" />
+
+    <Button
+        android:id="@+id/btnJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request JSON" />
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Image" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除log" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:selectAllOnFocus="true"
+        android:visibility="gone" />
+
+</LinearLayout>

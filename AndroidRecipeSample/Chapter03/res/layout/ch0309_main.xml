@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_xlarge"
+        android:text="@string/label_include_normal" />
+
+    <include layout="@layout/ch0309_include" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_xlarge"
+        android:text="@string/label_include_merge" />
+
+    <include layout="@layout/ch0309_merge" />
+
+</LinearLayout>

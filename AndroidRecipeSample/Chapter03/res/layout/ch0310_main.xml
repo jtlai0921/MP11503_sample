@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:background="@drawable/ch0310_bg_shape"
+        android:padding="@dimen/padding_large"
+        android:text="使用Shape資源的背景" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:background="@drawable/ch0310_bg_normal"
+        android:text="一般圖像的背景" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:background="@drawable/ch0310_bg_9patch"
+        android:text="使用9patch的圖像背景" />
+
+</LinearLayout>

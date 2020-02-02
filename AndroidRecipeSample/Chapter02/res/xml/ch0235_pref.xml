@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="設定畫面" >
+        <jp.co.se.android.recipe.chapter02.Ch0235DialogPreference
+            android:dialogTitle="自訂對話框標題"
+            android:key="customizedialog_key"
+            android:summary="自訂對話框説明"
+            android:defaultValue="20140102T030405"
+            android:title="自訂對話框名稱" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

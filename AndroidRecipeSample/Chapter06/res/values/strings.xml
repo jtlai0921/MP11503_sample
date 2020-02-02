@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter06</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">在Canvas描繪點</string>
+    <string name="app_title2">在Canvas描繪直線</string>
+    <string name="app_title3">在Canvas描繪曲線</string>
+    <string name="app_title4">在Canvas描繪圓形</string>
+    <string name="app_title5">在Canvas描繪矩形</string>
+    <string name="app_title6">在Canvas描繪多邊形</string>
+    <string name="app_title7">在Canvas描繪文字</string>
+    <string name="app_title8">沿路徑描繪文字</string>
+    <string name="app_title9">使用Tween動畫</string>
+    <string name="app_title10">使用屬性動畫</string>
+    <string name="app_title11">在畫面設定動畫</string>
+    <string name="app_title12">以指定的尺寸來裁切圖片</string>
+    <string name="app_title13">將圖片轉為灰階</string>
+    <string name="app_title14">映射圖片</string>
+    <string name="app_title15">顯示大尺寸的圖片</string>
+    <string name="app_title16">使用手指放大／縮小圖片</string>
+    
+</resources>

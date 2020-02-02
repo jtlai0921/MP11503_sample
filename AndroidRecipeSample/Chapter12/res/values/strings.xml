@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter12</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">在應用程式結束後仍持續處理一段時間</string>
+    <string name="app_title2">在一段時間後讓事件執行</string>
+    <string name="app_title3">非同步顯示圖片</string>
+    <string name="text_start">開始</string>
+
+</resources>

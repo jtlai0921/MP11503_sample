@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="設定畫面" >
+        <ListPreference
+            android:dialogTitle="清單對話框標題"
+            android:entries="@array/list_entries"
+            android:entryValues="@array/list_entryvalues"
+            android:key="list_key"
+            android:summary="清單摘要"
+            android:title="標題：清單" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter10</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">[地圖]\n 顯示地圖</string>
+    <string name="app_title2">[地圖]\n 在地圖加上標註</string>
+    <string name="app_title3">[地圖]\n 從經緯度取得地址</string>
+    <string name="app_title4">[地圖]\n 在地圖上顯示路線</string>
+    <string name="ch1002_pinpoint">標註的座標</string>
+    <string name="ch1002_latitude">緯度 : %s</string>
+    <string name="ch1002_longitude">經度 : %s</string>
+
+</resources>

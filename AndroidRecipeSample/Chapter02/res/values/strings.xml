@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter02</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title1">在ListView顯示清單</string>
+    <string name="app_title2">在GridView顯示格線</string>
+    <string name="app_title3">在ExpandListView顯示階層</string>
+    <string name="app_title4">設定ListView的頁首／頁尾</string>
+    <string name="app_title5">在ListView設定索引</string>
+    <string name="app_title6">使用獨立的版面配置來顯示ListView</string>
+    <string name="app_title7">在內容最後自動新增項目</string>
+    <string name="app_title8">縱向捲動畫面</string>
+    <string name="app_title9">橫向捲動畫面</string>
+    <string name="app_title10">高速捲動功能</string>
+    <string name="app_title11">顯示有按鈕的對話框</string>
+    <string name="app_title12">顯示可輸入文字的對話框</string>
+    <string name="app_title13">顯示有核取方塊的對話框</string>
+    <string name="app_title14">顯示獨立的版面配置對話框</string>
+    <string name="app_title15">變更對話框的主題</string>
+    <string name="app_title16">刪除對話框的標題</string>
+    <string name="app_title17">顯示強制回應（Modal）對話框</string>
+    <string name="app_title18">變更ActionBar的標題</string>
+    <string name="app_title19">變更ActionBar的標題按鈕</string>
+    <string name="app_title20">在ActionBar設定返回功能</string>
+    <string name="app_title21">變更ActionBar的標題字型</string>
+    <string name="app_title22">在ActionBar顯示選單</string>
+    <string name="app_title23">在ActionBar新增分頁</string>
+    <string name="app_title24">顯示ActionBar的樣式</string>
+    <string name="app_title25">在ActionBar設定Spinner</string>
+    <string name="app_title26">控制選單的顯示</string>
+    <string name="app_title27">變更為動態選單</string>
+    <string name="app_title28">設定選單的核取方塊</string>
+    <string name="app_title29">建立設定畫面</string>
+    <string name="app_title30">新增文字設定</string>
+    <string name="app_title31">新增選擇式的設定</string>
+    <string name="app_title32">新增核取式的設定</string>
+    <string name="app_title33">變更設定的名稱與說明</string>
+    <string name="app_title34">監聽設定的變更</string>
+    <string name="app_title35">自訂設定對話框</string>
+    <string name="app_title36">自訂偏好設定</string>
+    <string name="ch0210_label_usefastscroll">高速捲動器</string>
+
+</resources>

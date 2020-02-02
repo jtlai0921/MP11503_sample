@@ -1,0 +1,88 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <!-- Ch0215用的AlertDialog主題 -->
+    <style name="Ch0215_DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/FlatLightBlue</item>
+        <item name="android:windowBackground">@drawable/ch0215_dialog_bg</item>
+        <item name="android:alertDialogStyle">@style/Ch0215_AlertDialogStyle</item>
+    </style>
+
+    <!-- Ch0215用的AlertDialog樣式 -->
+    <style name="Ch0215_AlertDialogStyle">
+        <item name="android:textColor">@color/FlatLightBlue</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+    </style>
+
+    <!-- Ch0221用的動作列主題 -->
+    <style name="Ch0221_ChangeActionBarStyleTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Ch0221_ChangeActionBarStyle</item>
+    </style>
+
+    <!-- 定義Ch0221用的動作列樣式 -->
+    <style name="Ch0221_ChangeActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/Ch0221_ChangeActionBarTitleStyle</item>
+    </style>
+
+    <!-- 定義Ch0221用的動作列的標題樣式 -->
+    <style name="Ch0221_ChangeActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/FlatLightBlue</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- Ch0224用的動作列主題 -->
+    <style name="Ch0224_ChangeActionBarStyleTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Ch0224_ChangeActionBarStyle</item>
+        <item name="android:actionBarTabStyle">@style/Ch0224ChangeActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/Ch0224_ChangeActionBarTabTextStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/Ch0224_ChangeActionBarOverflowButtonStyle</item>
+        <item name="android:actionMenuTextColor">@android:color/holo_red_light</item>
+    </style>
+
+    <!-- 定義Ch0224用的動作列樣式 -->
+    <style name="Ch0224_ChangeActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
+        <item name="android:background">@drawable/ch0224_ac_bg</item>
+        <item name="android:actionBarDivider">?android:attr/dividerVertical</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:titleTextStyle">@style/Ch0224_ChangeActionBarTextStyle</item>
+    </style>
+
+    <!-- 定義Ch0224用的動作列的文字樣式 -->
+    <style name="Ch0224_ChangeActionBarTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <!-- 定義Ch0224用的動作列的分頁樣式 -->
+    <style name="Ch0224ChangeActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/ch0224_selector_ab_tab_indicator</item>
+    </style>
+
+    <!-- 定義Ch0224用的動作列的分頁文字樣式 -->
+    <style name="Ch0224_ChangeActionBarTabTextStyle" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+    </style>
+
+    <!-- 定義Ch0224用的ActionBar更多選單樣式 -->
+    <style name="Ch0224_ChangeActionBarOverflowButtonStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ch0224_ic_menu_moreoverflow_normal</item>
+    </style>
+
+</resources>

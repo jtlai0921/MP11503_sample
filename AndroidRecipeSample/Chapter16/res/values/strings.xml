@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter16</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name1">建立資料庫</string>
+    <string name="app_name2">資料的建立、更新、刪除</string>
+    <string name="app_name3">資料搜尋</string>
+    <string name="app_name4">資料庫的匯出、還原</string>
+    <string name="app_name5">儲存圖片</string>
+    <string name="app_name6">使用Transaction</string>
+    <string name="app_name7">使用預編譯陳述式</string>
+    <string name="app_name8">非同步存取資料庫</string>
+    <string name="text_start">開始</string>
+    <string name="text_export">匯出</string>
+    <string name="text_resotre">還原</string>
+
+</resources>

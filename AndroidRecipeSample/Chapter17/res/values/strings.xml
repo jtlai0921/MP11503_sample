@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter17</string>
+    <string name="app_title2">建立應用程式內結帳機制</string>
+    <string name="app_title3">顯示廣告</string>
+
+</resources>

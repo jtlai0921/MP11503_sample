@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="設定畫面" >
+        <jp.co.se.android.recipe.chapter02.Ch0236Preference
+            android:defaultValue="50"
+            android:key="calligraphy_diameter"
+            android:summary="編輯摘要"
+            android:title="編輯標題" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
